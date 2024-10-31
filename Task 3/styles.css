@@ -1,0 +1,133 @@
+/* General Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  background: #f5f5f5;
+}
+
+/* Navbar Styling */
+nav {
+  width: 100%;
+  background-color: #333;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+/* Section Styling */
+section {
+  width: 100%;
+  max-width: 800px;
+  padding: 4em 2em;
+  text-align: center;
+  margin: 1em 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Section */
+#home {
+  background: url('https://example.com/home-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+#home h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+/* About Section */
+#about {
+  background: url('https://example.com/about-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+#about h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+/* Contact Section */
+#contact {
+  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ffree-3dtextureshd.com%2Fdownload%2Fabstract-light-and-colors-wallpaper-ultra-hd-4k-background-desktop-phone-free-download-122%2F&psig=AOvVaw0b8vt_yVJNgd4nzWwJHBW0&ust=1730471590206000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjt3ZTruIkDFQAAAAAdAAAAABAY') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+#contact h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+#contact-form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label, form input {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 0.5em 2em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1em;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
